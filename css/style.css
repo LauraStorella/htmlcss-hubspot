@@ -10,17 +10,10 @@
 body {
   font-family: 'Montserrat', sans-serif;
 }
-ul {
-  list-style: none;
-}
-ul a {
-  text-decoration: none;
-}
 
 .container {
   width: 1280px;
   margin: auto;
-  background: lightgray;
   height: 500px;
 }
 .clearfix::after {
@@ -34,16 +27,79 @@ ul a {
 /* FINE REGOLE GENERALI */
 
 /* INIZIO NAVBAR */
-/* Inizio top-menu */
+/* Inizio Regole generali Navbar */
 nav .col {
   width: 50%;
-  height: 60px;
-  background: red;
 }
-nav .menu ul li {
+nav .col.right-menu {
+  text-align: right;
+}
+nav ul li {
+  list-style: none;
   display: inline-block;
 }
+nav .col.right-menu {
+  text-align: right;
+}
+/* Fine Regole generlai Navbar */
 
+/* Inizio top-nav */
+nav .top-nav {
+  height: 80px;
+  background: #f4f9fd;
+  line-height: 80px;
+  font-size: 15px;
+  border-bottom: 2px solid black;
+}
+nav .top-nav ul li a {
+  text-decoration: none;
+}
+nav .top-nav .col.left-menu ul li:last-child {
+  padding: 0 15px;
+}
+nav .top-nav .col.rigth-menu i {
+  color: #00a4bd;
+}
+/* Fine top-nav */
 
-/* Fine top-menu */
+/* Inizio Bottom-Nav */
+nav .bottom-nav {
+  height: 80px;
+  background: white;
+  line-height: 80px;
+  font-size: 15px;
+}
+nav .col.right-menu ul li .login,
+nav .col.right-menu ul li .free-plan {
+  border-radius: 3px;
+  padding: 5px;
+}
+nav .col.right-menu ul li .login {
+  border: 1px solid #fe775a;
+  color: #fe775a;
+}
+nav .col.right-menu ul li .free-plan {
+  background: #fe775a;
+  color: white;
+}
+/* Fine Bottom-Nav */
 /* FINE NAVBAR */
+
+/* INIZIO HEADER */
+header {
+  background-image: url("../img/jumbotron.png");
+  width: 100%;
+  height: 650px;
+  background-size: cover;
+}
+header .col {
+  width: 50%;
+}
+/* FINE HEADER */
+
+.green-div {
+  height: 80px;
+  background: #afebe4;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+}
