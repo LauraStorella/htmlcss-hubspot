@@ -10,9 +10,11 @@
 body {
   font-family: 'Montserrat', sans-serif;
 }
-
 ul {
   list-style: none;
+}
+ul a {
+  text-decoration: none;
 }
 
 .container {
@@ -33,7 +35,12 @@ ul {
 
 /* INIZIO NAVBAR */
 /* Inizio top-menu */
-nav ul {
+nav .col {
+  width: 50%;
+  height: 60px;
+  background: red;
+}
+nav .menu ul li {
   display: inline-block;
 }
 
