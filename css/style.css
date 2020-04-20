@@ -1,0 +1,42 @@
+/* INIZIO RESET  */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* FINE RESET  */
+
+/* INIZIO REGOLE GENERALI */
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+
+.container {
+  width: 1280px;
+  margin: auto;
+  background: lightgray;
+  height: 500px;
+}
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.col {
+  float: left;
+}
+/* FINE REGOLE GENERALI */
+
+/* INIZIO NAVBAR */
+/* Inizio top-menu */
+nav ul {
+  display: inline-block;
+}
+
+
+/* Fine top-menu */
+/* FINE NAVBAR */
