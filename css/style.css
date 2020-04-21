@@ -337,6 +337,12 @@ main section.partners div.col.picture img {
 footer {
   height: 600px;
   background: #32495b;
+  color: #cbd6e2;
+}
+footer p {
+  color: #cbd6e2;
+}
+footer h4 {
   color: white;
 }
 /* Fine regole generali Footer */
@@ -372,6 +378,48 @@ footer ul.social li {
   color: white;
 }
 /* Fine Footer- sezione more-info */
+
+/* Inizio sezione final-info */
+footer div.language {
+  text-align: center;
+  margin-top: 30px;
+}
+footer div.language ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+footer div.language ul li a {
+  text-decoration: none;
+  color: white;
+}
+footer hr {
+  color: white;
+  margin-top: 15px;
+}
+footer div.credits {
+  height: 80px;
+}
+footer div .copyright {
+  width: 50%;
+  padding-top: 25px;
+}
+footer div .copyright img {
+  fill: #000;
+}
+footer div .copyright p {
+  text-align: left;
+  padding: 5px 0;
+}
+footer div.policy {
+  width: 50%;
+  text-align: right;
+}
+footer div.policy ul li {
+  display: inline-block;
+  padding-left: 20px;
+  line-height: 80px;
+}
+/* Fine sezione final-info */
 /* FINE FOOTER */
 
 
