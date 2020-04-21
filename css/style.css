@@ -190,7 +190,11 @@ main section .more-software-offer {
 main section.software-offer .more-software-offer .col.option {
   width: 30%;
   padding: 0 50px;
-  background: yellow; /*CANCELLARE*/
+  background: white;
+  border-radius: 5px;
+}
+main section.software-offer .more-software-offer .col.option.center {
+  margin: 0 5%;
 }
 main section.software-offer .more-software-offer .col.option img {
   width: 150px;
@@ -218,8 +222,31 @@ main section .option a {
   width: 40%;
 }
 /* Fine sezione more-software-offer */
-
 /* Fine Software-Offer */
+
+/* Inizio Sezione Customer-Support (area blu) */
+/* Fine Sezione Customer-Support (area blu) */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* FINE MAIN */
