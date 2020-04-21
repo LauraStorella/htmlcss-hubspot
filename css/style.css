@@ -132,8 +132,6 @@ header p {
 /* Inizio Main generale */
 main {
   background: #f4f9fd;
-  height: 1300px;
-
 }
 main section i {
   color: #fe775a;
@@ -240,63 +238,141 @@ main section.customer-support .banner h2 {
   padding-bottom: 20px;
   text-align: center;
 }
-/* main section.customer-support .tools-list .row {
-  padding:0px;
-  margin:0px;
-}
-main section.customer-support .box {
-  width: 25%;
-  padding: 25px 0;
-  border: 1px solid white;
-}
-main section.customer-support .box .icon {
-  text-align: center;
-}
-main section.customer-support .text {
-  padding: 20px 0;
-}
-main section.customer-support h2 {
-  font-size: 40px;
-  font-weight: bold;
-}
-main section.customer-support h2, p {
-  text-align: center;
-  padding: 0 10%;
-} */
 
-/* Fine Sezione Customer-Support (area blu) */
-
-/* VERSIONE LISTA*/
-main section.tool-list ul.row {
+/* Inizio Sezione Customer-Support (area blu) */
+main div.tool-list ul.row {
 
 }
-main section.tool-list ul li.box {
+main div.tool-list ul li.box {
   width: calc(100% / 4);
   padding: 25px 0;
   border-right: 1px solid white;
   border-bottom: 1px solid white;
 }
-main section.tool-list ul li:first-child {
+main div.tool-list ul li:first-child {
   border-left: 0;
 }
-main section.tool-list ul li:last-child {
+main div.tool-list ul li:last-child {
   border-right: 0;
 }
-main section.tool-list .box .icon {
+main div.tool-list .box .icon {
   text-align: center;
 }
-main section.tool-list .text {
+main div.tool-list .text {
   padding: 20px 0;
 }
-main section.tool-list h2 {
+main div.tool-list h2 {
   font-size: 40px;
   font-weight: bold;
 }
-main section.tool-list h2, p {
+main div.tool-list h2, p {
   text-align: center;
   padding: 0 10%;
 }
+/* Fine Sezione Customer-Support (area blu) */
 
+/* Inizio Section Partners */
+main section.partners {
+  background: red;
+}
+main section.partners div.worldwide-partners {
+  background: yellow;
+  width: 80%;
+  margin: auto;
+}
+main section.partners div.partners-number {
+  width: 25%;
+  background: pink;
+}
+main section.partners div.partners-number p.tot-number {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+main section.partners div.col.partners-logo li {
+  list-style: none;
+  display: inline-block;
+  width: calc(75% / 4);
+  background: green
+}
+main section.partners div.col.partners-logo li img {
+  width: 50px;
+  height: 50px;
+}
+main section.partners div.start-grow {
+  padding: 40px 0;
+}
+main section.partners div.col.info {
+  width: 35%;
+  padding-top: 50px;
+}
+main section.partners div.col.picture {
+  width: 65%;
+}
+main section.partners div.col.info h2 {
+  font-size: 25px;
+}
+main section.partners div.col.info h2,
+main section.partners div.col.info p {
+  text-align: left;
+}
+main section.partners div.col.info p {
+  padding: 20px 0;
+}
+main section.partners div.col.info a {
+  display: inline-block;
+}
+main section.partners div.col.picture img {
+  width: 250px;
+  height: 300px;
+  position: relative;
+  left: 60%;
+}
+/* Fine Section Partners */
+/* FINE MAIN */
+
+/* INIZIO FOOTER */
+/* Inizio regole generali Footer */
+footer {
+  height: 600px;
+  background: #32495b;
+  color: white;
+}
+/* Fine regole generali Footer */
+
+/* Inizio Footer- sezione more-info */
+footer div.more-info {
+  padding: 20px 0;
+}
+footer div.col {
+  width: calc(100% / 4);
+}
+footer div.col h4 {
+  padding: 20px 0;
+}
+footer div.col ul li {
+  list-style: none;
+  padding-bottom: 15px;
+}
+footer div.col ul li a {
+  text-decoration: none;
+  color: white;
+}
+footer div.col a.btn-cta {
+  background: lightgray;
+  color: #32495b;
+  display: block;
+  width: 65%;
+  margin-bottom: 10px;
+}
+footer ul.social li {
+  display: inline-block;
+  margin-right: 30px;
+  color: white;
+}
+/* Fine Footer- sezione more-info */
+/* FINE FOOTER */
 
 
 
