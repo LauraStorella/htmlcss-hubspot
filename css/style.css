@@ -228,12 +228,33 @@ main section .option a {
 /* Inizio Sezione Customer-Support (area blu) */
 main section.customer-support {
   width: 100%;
-  height: 500px;
+  height: 700px;
   background: #00a9b9;
   color: white;
 }
+main section.customer-support .banner {
+  padding: 40px 0;
+}
+main section.customer-support .banner h2 {
+  padding-bottom: 20px;
+}
+main section.customer-support .tools-list .row {
+  padding:0px;
+  margin:0px;
+}
+main section.customer-support .box {
+  width: 25%;
+  padding: 25px 0;
+  border: 1px solid white;
+}
+main section.customer-support .box .icon {
+  text-align: center;
+}
+main section.customer-support .text {
+  padding: 20px 0;
+}
 main section.customer-support h2 {
-  font-size: 30px;
+  font-size: 40px;
   font-weight: bold;
 }
 main section.customer-support h2, p {
