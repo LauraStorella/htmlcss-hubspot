@@ -9,6 +9,14 @@
 /* INIZIO REGOLE GENERALI */
 body {
   font-family: 'Montserrat', sans-serif;
+  font-size: 13px;
+  color: #33475b;
+}
+ul li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
 }
 
 .container {
@@ -23,6 +31,12 @@ body {
 }
 .col {
   float: left;
+}
+.btn-cta  {
+  background: #fe775a;
+  border-radius: 3px;
+  padding: 15px;
+  color: white;
 }
 /* FINE REGOLE GENERALI */
 
@@ -48,11 +62,7 @@ nav .top-nav {
   height: 80px;
   background: #f4f9fd;
   line-height: 80px;
-  font-size: 15px;
   border-bottom: 2px solid black;
-}
-nav .top-nav ul li a {
-  text-decoration: none;
 }
 nav .top-nav .col.left-menu ul li:last-child {
   padding: 0 15px;
@@ -67,20 +77,19 @@ nav .bottom-nav {
   height: 80px;
   background: white;
   line-height: 80px;
-  font-size: 15px;
 }
 nav .col.right-menu ul li .login,
-nav .col.right-menu ul li .free-plan {
+nav .col.right-menu ul li .btn-cta.free-plan {
   border-radius: 3px;
   padding: 5px;
+}
+nav .col.right-menu ul li .btn-cta.free-plan {
+  background: #fe775a;
+  color: white;
 }
 nav .col.right-menu ul li .login {
   border: 1px solid #fe775a;
   color: #fe775a;
-}
-nav .col.right-menu ul li .free-plan {
-  background: #fe775a;
-  color: white;
 }
 /* Fine Bottom-Nav */
 /* FINE NAVBAR */
@@ -93,13 +102,124 @@ header {
   background-size: cover;
 }
 header .col {
-  width: 50%;
+  width: 45%;
 }
+header .col.jumbotron {
+  padding-top: 50px;
+}
+header h1 {
+  font-size: 55px;
+}
+header p {
+  text-align: justify;
+}
+/* header a .btn-cta .free-plan {
+  display: block;
+  margin: 20px 0;
+} */
 /* FINE HEADER */
 
+/* Inizio green-div */
 .green-div {
   height: 80px;
   background: #afebe4;
   border-top: 2px solid black;
   border-bottom: 2px solid black;
 }
+/* Fine green-div */
+
+/* INIZIO MAIN */
+/* Inizio Main generale */
+main {
+  background: #f4f9fd;
+  height: 1200px;
+}
+main section i {
+  color: #fe775a;
+}
+/* Fine Main generale */
+
+/* Inizio Software-Offer */
+/* Inizio Slogan */
+main section.software-offer .slogan {
+  text-align: center;
+  padding: 50px 230px;
+}
+main section.software-offer .slogan img {
+  width: 200px;
+  height: 200px;
+}
+/* Fine Slogan */
+
+/* Inizio Software CRM */
+main section.software-offer .software.crm {
+  background: white;
+  border-radius: 5px;
+  height: 300px;
+}
+main section.software-offer .col.box-left {
+  width: 30%;
+  text-align: center;
+}
+main section.software-offer .col.box-left img {
+  width: 150px;
+  height: 150px;
+}
+main section.software-offer .col.box-left a {
+  display: block;
+  width: 30%;
+  margin: auto;
+}
+main section.software-offer .col.box-right h3 {
+  float: left;
+}
+main section.software-offer .col.box-right hr {
+  display: inline-block;
+  margin-top: 13px;
+  width: 50%;
+}
+main section.software-offer .col.box-right li {
+  display: inline-block;
+}
+/* Fine Software CRM */
+
+/* Inizio sezione more-software-offer */
+main section .more-software-offer {
+  margin: 30px 0;
+}
+main section.software-offer .more-software-offer .col.option {
+  width: 30%;
+  padding: 0 50px;
+  background: yellow; /*CANCELLARE*/
+}
+main section.software-offer .more-software-offer .col.option img {
+  width: 150px;
+  height: 150px;
+  padding: 15px 0;
+}
+main section .description {
+  text-align: center;
+  padding: 20px 0;
+}
+main section .option .description p {
+  padding: 20px 0 50px 0;
+}
+main section .option .description hr {
+  width: 100%;
+  margin: auto;
+}
+main section .option h3 {
+  padding: 20px 0;
+  text-align: center;
+}
+main section .option a {
+  display: block;
+  margin: 30px auto 20px;
+  width: 40%;
+}
+/* Fine sezione more-software-offer */
+
+/* Fine Software-Offer */
+
+
+/* FINE MAIN */
