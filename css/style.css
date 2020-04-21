@@ -132,7 +132,8 @@ header p {
 /* Inizio Main generale */
 main {
   background: #f4f9fd;
-  height: 1200px;
+  height: 1300px;
+
 }
 main section i {
   color: #fe775a;
@@ -225,6 +226,21 @@ main section .option a {
 /* Fine Software-Offer */
 
 /* Inizio Sezione Customer-Support (area blu) */
+main section.customer-support {
+  width: 100%;
+  height: 500px;
+  background: #00a9b9;
+  color: white;
+}
+main section.customer-support h2 {
+  font-size: 30px;
+  font-weight: bold;
+}
+main section.customer-support h2, p {
+  text-align: center;
+  padding: 0 10%;
+}
+
 /* Fine Sezione Customer-Support (area blu) */
 
 
