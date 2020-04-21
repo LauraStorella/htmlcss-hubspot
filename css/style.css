@@ -112,11 +112,12 @@ header h1 {
 }
 header p {
   text-align: justify;
+  padding: 15px 0;
+  margin: 40px 0;
 }
-/* header a .btn-cta .free-plan {
+header a .btn-cta .free-plan {
   display: block;
-  margin: 20px 0;
-} */
+}
 /* FINE HEADER */
 
 /* Inizio green-div */
