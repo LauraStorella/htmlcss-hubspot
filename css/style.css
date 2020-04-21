@@ -236,9 +236,11 @@ main section.customer-support .banner {
   padding: 40px 0;
 }
 main section.customer-support .banner h2 {
+  font-size: 40px;
   padding-bottom: 20px;
+  text-align: center;
 }
-main section.customer-support .tools-list .row {
+/* main section.customer-support .tools-list .row {
   padding:0px;
   margin:0px;
 }
@@ -260,11 +262,40 @@ main section.customer-support h2 {
 main section.customer-support h2, p {
   text-align: center;
   padding: 0 10%;
-}
+} */
 
 /* Fine Sezione Customer-Support (area blu) */
 
+/* VERSIONE LISTA*/
+main section.tool-list ul.row {
 
+}
+main section.tool-list ul li.box {
+  width: calc(100% / 4);
+  padding: 25px 0;
+  border-right: 1px solid white;
+  border-bottom: 1px solid white;
+}
+main section.tool-list ul li:first-child {
+  border-left: 0;
+}
+main section.tool-list ul li:last-child {
+  border-right: 0;
+}
+main section.tool-list .box .icon {
+  text-align: center;
+}
+main section.tool-list .text {
+  padding: 20px 0;
+}
+main section.tool-list h2 {
+  font-size: 40px;
+  font-weight: bold;
+}
+main section.tool-list h2, p {
+  text-align: center;
+  padding: 0 10%;
+}
 
 
 
