@@ -204,8 +204,9 @@ main section.software-offer .col.box-right hr {
   width: 50%;
   margin-left: 20px;
 }
-main section.software-offer ul.software-details {
+main section.software-offer .col.box-right ul {
   text-align: left;
+  clear: both;
 }
 main section.software-offer .col.box-right li {
   display: inline-block;
@@ -272,8 +273,8 @@ main section.customer-support .banner h2 {
 }
 
 /* Inizio Sezione Customer-Support (area blu) */
-main div.tool-list ul.row {
-
+main div.tool-list ul.row:last-child {
+  border-bottom: 0;
 }
 main div.tool-list ul li.box {
   width: calc(100% / 4);
