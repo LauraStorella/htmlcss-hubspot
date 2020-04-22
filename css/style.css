@@ -305,40 +305,37 @@ main div.tool-list h2, p {
 
 /* Inizio Section Partners */
 main section.partners {
-  background: red;
+  height: 600px;
 }
 main section.partners div.worldwide-partners {
-  background: green;
   width: 80%;
   margin: auto;
+  padding: 50px 0;
 }
 main section.partners div.partners-number {
-  width: 30%;
-  background: pink;
+  width: 25%;
 }
 main section.partners div.partners-logo {
-  background: orange;
-  width: 70%;
+  width: 75%;
+  margin-bottom: 15px;
 }
 main section.partners div.partners-number p.tot-number {
-  font-size: 30px;
+  font-size: 40px;
   font-weight: bold;
   margin-bottom: 15px;
 }
+main section.partners div.partners-number p.customers {
+  line-height: 25px;
+}
 main section.partners div.partners-logo ul li {
   width: calc(100% / 4);
-  background: yellow;
 }
-
-
-
-
 main section.partners div.col.partners-logo li img {
-  width: 150px;
+  width: 100px;
   height: 20px;
 }
 main section.partners div.start-grow {
-  padding: 40px 0;
+  padding: 20px 0;
 }
 main section.partners div.col.info {
   width: 35%;
@@ -372,11 +369,8 @@ main section.partners div.col.picture img {
 /* INIZIO FOOTER */
 /* Inizio regole generali Footer */
 footer {
-  height: 600px;
+  height: 520px;
   background: #32495b;
-  color: #cbd6e2;
-}
-footer p {
   color: #cbd6e2;
 }
 footer h4 {
@@ -458,24 +452,3 @@ footer div.policy ul li {
 }
 /* Fine sezione final-info */
 /* FINE FOOTER */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* FINE MAIN */
