@@ -140,14 +140,25 @@ main section i {
 /* Fine Main generale */
 
 /* Inizio Software-Offer */
+main section.software-offer {
+  padding: 40px 0;
+}
 /* Inizio Slogan */
 main section.software-offer .slogan {
   text-align: center;
-  padding: 50px 230px;
+  width: 60%;
+  margin: auto;
+  padding: 10px 0;
 }
 main section.software-offer .slogan img {
   width: 200px;
-  height: 200px;
+  height: 150px;
+}
+main section.software-offer .slogan h2 {
+  font-size: 25px;
+}
+main section.software-offer .slogan p {
+  padding: 25px 0;
 }
 /* Fine Slogan */
 
@@ -159,7 +170,9 @@ main section.software-offer .software.crm {
 }
 main section.software-offer .col.box-left {
   width: 30%;
+  height: 300px;
   text-align: center;
+  padding: 30px 0;
 }
 main section.software-offer .col.box-left img {
   width: 150px;
@@ -170,6 +183,18 @@ main section.software-offer .col.box-left a {
   width: 30%;
   margin: auto;
 }
+main section.software-offer .col.box-right {
+  width: 70%;
+  height: 300px;
+  padding: 30px 0;
+}
+main section.software-offer .col.box-right h2 {
+  text-align: left;
+}
+main section.software-offer .col.box-right p {
+  text-align: left;
+  padding: 20px 0;
+}
 main section.software-offer .col.box-right h3 {
   float: left;
 }
@@ -177,9 +202,14 @@ main section.software-offer .col.box-right hr {
   display: inline-block;
   margin-top: 13px;
   width: 50%;
+  margin-left: 20px;
+}
+main section.software-offer ul.software-details {
+  text-align: left;
 }
 main section.software-offer .col.box-right li {
   display: inline-block;
+  padding: 15px 0;
 }
 /* Fine Software CRM */
 
@@ -278,29 +308,34 @@ main section.partners {
   background: red;
 }
 main section.partners div.worldwide-partners {
-  background: yellow;
+  background: green;
   width: 80%;
   margin: auto;
 }
 main section.partners div.partners-number {
-  width: 25%;
+  width: 30%;
   background: pink;
+}
+main section.partners div.partners-logo {
+  background: orange;
+  width: 70%;
 }
 main section.partners div.partners-number p.tot-number {
   font-size: 30px;
   font-weight: bold;
   margin-bottom: 15px;
 }
-
-main section.partners div.col.partners-logo li {
-  list-style: none;
-  display: inline-block;
-  width: calc(75% / 4);
-  background: green
+main section.partners div.partners-logo ul li {
+  width: calc(100% / 4);
+  background: yellow;
 }
+
+
+
+
 main section.partners div.col.partners-logo li img {
-  width: 50px;
-  height: 50px;
+  width: 150px;
+  height: 20px;
 }
 main section.partners div.start-grow {
   padding: 40px 0;
