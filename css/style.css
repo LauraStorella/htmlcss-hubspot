@@ -271,11 +271,6 @@ main section.customer-support .banner h2 {
   padding-bottom: 20px;
   text-align: center;
 }
-
-/* Inizio Sezione Customer-Support (area blu) */
-main div.tool-list ul.row:last-child {
-  border-bottom: 0;
-}
 main div.tool-list ul li.box {
   width: calc(100% / 4);
   padding: 25px 0;
@@ -287,6 +282,9 @@ main div.tool-list ul li:first-child {
 }
 main div.tool-list ul li:last-child {
   border-right: 0;
+}
+main div.tool-list ul:last-child li.box {
+  border-bottom: 0;
 }
 main div.tool-list .box .icon {
   text-align: center;
@@ -328,6 +326,11 @@ main section.partners div.partners-number p.tot-number {
 main section.partners div.partners-number p.customers {
   line-height: 25px;
 }
+
+main section.partners div.partners-logo ul {
+  margin-bottom: 50px;
+  padding-left: 20%;
+}
 main section.partners div.partners-logo ul li {
   width: calc(100% / 4);
 }
@@ -335,15 +338,19 @@ main section.partners div.col.partners-logo li img {
   width: 100px;
   height: 20px;
 }
+
+/* Inizio sezione partners_start-grow */
 main section.partners div.start-grow {
   padding: 20px 0;
+  width: 85%;
+  margin: auto;
 }
 main section.partners div.col.info {
-  width: 35%;
+  width: 40%;
   padding-top: 50px;
 }
 main section.partners div.col.picture {
-  width: 65%;
+  width: 60%;
 }
 main section.partners div.col.info h2 {
   font-size: 25px;
@@ -364,6 +371,7 @@ main section.partners div.col.picture img {
   position: relative;
   left: 60%;
 }
+/* Fine sezione partners_start-grow */
 /* Fine Section Partners */
 /* FINE MAIN */
 
@@ -395,7 +403,7 @@ footer div.col ul li {
 }
 footer div.col ul li a {
   text-decoration: none;
-  color: white;
+  color: #cbd6e2;
 }
 footer div.col a.btn-cta {
   background: lightgray;
@@ -407,7 +415,7 @@ footer div.col a.btn-cta {
 footer ul.social li {
   display: inline-block;
   margin-right: 30px;
-  color: white;
+  font-size: 15px;
 }
 /* Fine Footer- sezione more-info */
 
@@ -422,10 +430,10 @@ footer div.language ul li {
 }
 footer div.language ul li a {
   text-decoration: none;
-  color: white;
+  color: #cbd6e2;
 }
 footer hr {
-  color: white;
+  color: #cbd6e2;
   margin-top: 15px;
 }
 footer div.credits {
@@ -434,9 +442,6 @@ footer div.credits {
 footer div .copyright {
   width: 50%;
   padding-top: 25px;
-}
-footer div .copyright img {
-  fill: #000;
 }
 footer div .copyright p {
   text-align: left;
