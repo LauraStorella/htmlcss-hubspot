@@ -378,7 +378,7 @@ main section.partners div.col.picture img {
 /* INIZIO FOOTER */
 /* Inizio regole generali Footer */
 footer {
-  height: 520px;
+  height: 550px;
   background: #32495b;
   color: #cbd6e2;
 }
@@ -457,4 +457,34 @@ footer div.policy ul li {
   line-height: 80px;
 }
 /* Fine sezione final-info */
+
+/* Inizio Chat */
+footer .chat {
+  height: 50px;
+  position: relative;
+}
+footer .chat i.cloud {
+  color: #cbd6e2;
+  font-size: 30px;
+  line-height: 50px;
+  position: fixed;
+  bottom: 0;
+  right: 10%;
+}
+footer .chat span {
+  display: none;
+  color: black;
+}
+footer .chat a:hover span {
+  display: block;
+  background: white;
+  width: 20%;
+  height: 200px;
+  border: 3px solid #cbd6e2;
+  border-radius: 5px;
+  position: absolute;
+  bottom: 100%;
+  right: 0;
+}
+/* Fine Chat */
 /* FINE FOOTER */
